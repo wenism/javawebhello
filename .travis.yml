@@ -16,7 +16,7 @@ before_install:
   - sed -i "s|@BUILT.ON@|$BUILT_ON|" src/main/java/wenism/JavaWebHello.java
   - sed -i "s|@BUILT.USING@|$BUILT_USING|" src/main/java/wenism/JavaWebHello.java
 
-script:
+after_success:
   - docker build -t wenism/javawebhello:$APP_VERSION .
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - docker push wenism/javawebhello:$VERSION
