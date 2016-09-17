@@ -1,0 +1,16 @@
+<style>
+  tr:nth-child(even){background-color: #f2f2f2}
+</style>
+<h1>Hello Web App in Java</h1>
+<ul>
+  <li>Feature A</li>
+</ul>
+<br/>
+<table width="300px" style="border: 1px solid grey">
+  <tr><td>Environment</td><td>$ENVIRONMENT</td></tr>
+  <tr><td>App version</td><td>$APP_VERSION</td></tr>
+  <tr><td>Built on</td><td>$BUILT_ON</td></tr>
+  <tr><td>Built using</td><td>$BUILT_USING</td></tr>
+  <tr><td>Docker version</td><td>$DOCKER_VERSION</td></tr>
+  <tr><td>Linux distro</td><td>$LINUX_DISTRO</td></tr>
+</table>
