@@ -1,2 +1,2 @@
 # javawebhello
-Minimal Java Web using Spark
+Minimal Java Web using Spark.
