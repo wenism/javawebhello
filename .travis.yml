@@ -20,4 +20,4 @@ before_install:
 after_success:
   - docker build -t wenism/javawebhello:$APP_VERSION .
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker push wenism/javawebhello:$VERSION
+  - docker push wenism/javawebhello:$APP_VERSION
