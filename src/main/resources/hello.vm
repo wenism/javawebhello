@@ -12,5 +12,5 @@
   <tr><td>Built on</td><td>$BUILT_ON</td></tr>
   <tr><td>Built using</td><td>$BUILT_USING</td></tr>
   <tr><td>Docker version</td><td>$DOCKER_VERSION</td></tr>
-  <tr><td>Linux distro</td><td>$LINUX_DISTRO</td></tr>
+  <tr><td>OS</td><td>$OS</td></tr>
 </table>

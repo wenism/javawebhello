@@ -34,7 +34,7 @@ public class JavaWebHello {
         model.put("BUILT_ON", BUILT_ON);
         model.put("BUILT_USING", BUILT_USING);
         model.put("DOCKER_VERSION", System.getenv("DOCKER_VERSION"));
-        model.put("LINUX_DISTRO", System.getenv("LINUX_DISTRO"));
+        model.put("OS", System.getenv("OS"));
 
         return new ModelAndView(model, "hello.vm");
     }
