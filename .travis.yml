@@ -10,7 +10,7 @@ services:
 
 before_install:
   - export APP_VERSION=`git describe --tag --long`
-  - export BUILT_ON=`TZ=Australia/Sydney date +%Y-%m-%d-%H%M` 
+  - export BUILT_ON=`TZ=Australia/Sydney date +"%d/%m/%Y %T"` 
   - export BUILT_USING=`javac -version 2>&1`
   - echo $APP_VERSION - $BUILT_ON - $BUILT_USING
   - sed -i "s|@APP.VERSION@|$APP_VERSION|" src/main/java/wenism/JavaWebHello.java
