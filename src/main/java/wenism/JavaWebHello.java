@@ -33,7 +33,7 @@ public class JavaWebHello {
         model.put("APP_VERSION", APP_VERSION);
         model.put("BUILT_ON", BUILT_ON);
         model.put("BUILT_USING", BUILT_USING);
-        model.put("DOCKER_VERSION", System.getenv("DOCKER_VERSION"));
+        model.put("CONTAINER_ENGINE_VERSION", System.getenv("CONTAINER_ENGINE_VERSION"));
         model.put("OS", System.getenv("OS"));
 
         return new ModelAndView(model, "hello.vm");
