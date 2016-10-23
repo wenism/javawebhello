@@ -35,6 +35,7 @@ public class JavaWebHello {
         model.put("BUILT_USING", BUILT_USING);
         model.put("CONTAINER_ENGINE_VERSION", System.getenv("CONTAINER_ENGINE_VERSION"));
         model.put("OS", System.getenv("OS"));
+        model.put("CLOUD_PROVIDER", System.getenv("CLOUD_PROVIDER"));
 
         return new ModelAndView(model, "hello.vm");
     }

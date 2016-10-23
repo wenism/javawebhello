@@ -15,4 +15,5 @@
   <tr><td>Built using</td><td>$BUILT_USING</td></tr>
   <tr><td>Container Engine</td><td>$CONTAINER_ENGINE_VERSION</td></tr>
   <tr><td>OS</td><td>$OS</td></tr>
+  <tr><td>Cloud Provider</td><td>$CLOUD_PROVIDER</td></tr>  
 </table>
